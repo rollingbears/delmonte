@@ -1,0 +1,163 @@
+<!DOCTYPE 	html>
+
+<html lang="ko">
+
+	<head>
+
+		<meta charset="UTF-8">
+	
+		<title>DEL MOTE</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+	
+		<link rel="stylesheet" type="text/css" href="css/info_style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+			
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">			
+$(function(){
+		var ht=$(window).height()
+		$('section').height(ht)
+		
+		$('.pannel_navi li').click(function(e){
+			e.preventDefault();
+			
+			var idx=$(this).index()
+						
+			$('.pannel').stop().animate({'margin-left':-100*idx+'%'},500)
+	
+		
+		$('.pannel_navi li a').removeClass('on')
+		$(this).find('a').addClass('on')
+		
+		
+		});
+	
+	$('.gnb li').click(function(e){
+		e.preventDefault();
+		var href=$(this).find('a').attr('href')
+		var target=$(href).offset().top
+		
+		$('html,body').animate({'scrollTop':target},1000)
+		
+		$('.gnb li a').removeClass('on')
+		$(this).find('a').addClass('on')
+	
+	});
+	
+	
+	
+	var pos1=$('#section1').offset().top
+	var pos2=$('#section2').offset().top
+	var pos3=$('#section3').offset().top
+	var pos4=$('#section4').offset().top
+	var pos5=$('#section5').offset().top
+	
+	var start=-500//마지막 section 섹션 높이 활성화// 
+	
+	$(window).scroll(function(){
+		var scrT=$(window).scrollTop()
+		$('p').removeClass('on')
+		$('div').removeClass('on')
+		$('h1').removeClass('on')
+//모든 에니없앰//
+		
+		if(scrT>=pos1+start && scrT<pos2+start){
+					$('.gnb li').find('a').removeClass('on')
+					$('.gnb li').eq(0).find('a').addClass('on')
+					}
+		//만약 1번섹션더하기 마지막섹션값과  window스크롤탑값이 
+		//window스크롤탑보다 작거나 같고
+		// 2번섹션더하기 마지막섹션값보다 작으면
+		//결론은 처음 섹션 위치 스크롤 잡히면
+		/*&& 두 피연산자가 모두 true이면 부울(거짓 참) 값 true를 반환하고, 그렇지 않으면 false를 반환*/
+		
+		if(scrT>=pos2+start && scrT<pos3+start){
+					$('.gnb li').find('a').removeClass('on')
+					$('.gnb li').eq(1).find('a').addClass('on')
+					$('#section2 h1').addClass('on')
+					}
+		
+			
+		if(scrT>=pos3+start && scrT<pos4+start){
+					$('.gnb li').find('a').removeClass('on')
+					$('.gnb li').eq(2).find('a').addClass('on')
+					$('#section3 div').addClass('on')
+					}
+		if(scrT>=pos4+start && scrT<pos5+start){
+					$('.gnb li').find('a').removeClass('on')
+					$('.gnb li').eq(3).find('a').addClass('on')
+					$('#section4 div').addClass('on')
+					}
+		
+		if(scrT>=pos5+start){
+					$('.gnb li').find('a').removeClass('on')
+					$('.gnb li').eq(4).find('a').addClass('on')
+					$('.sec1').addClass('on')
+					$('.sec2').addClass('on')
+					}
+	
+	});			
+});
+	
+	</script>
+	
+</head>
+<body>
+	
+
+	
+	<div class="wrap">
+	
+		<section id="section1">
+								
+			<div>
+			<button type="button" onclick ="location.href='index.html'">DEL MONTE Renewal Website</button>
+			<button type="button" onclick ="location.href='https://www.freshdelmonte.co.kr/'" target="_blank">DEL MONTE Original Website</button>
+			</div>
+			
+			
+		
+		</section>
+		
+		
+		<section id="section2">
+			<div></div>
+			<h1>
+			</h1>
+		
+		</section>
+		
+		
+		<section id="section3">
+			<div></div>
+		
+		</section>
+		
+		
+		<section id="section4">
+			<div>
+			</div>
+		</section>
+		
+		
+		
+		<section id="section5">
+			<div>
+			<button type="button" onclick ="location.href='index.html'">메인으로 돌아가기</button>
+			</div>
+		</section>
+	
+	
+	</div>
+	
+	 <ul class="gnb">
+	 	<li><a href="#section1" class="on"></a></li>
+	 	<li><a href="#section2"></a></li>
+	 	<li><a href="#section3"></a></li>
+	 	<li><a href="#section4"></a></li>
+	 	<li><a href="#section5"></a></li>
+	 </ul>

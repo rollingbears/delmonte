@@ -1,0 +1,508 @@
+<!DOCTYPE 	html>
+
+<html lang="ko">
+
+	<head>
+
+		<meta charset="UTF-8">
+	
+		<title>JOIN</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+	
+		<link rel="stylesheet" type="text/css" href="css/member3_style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+			
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/rolling.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+		
+				$(".searchii").on("click", function(){
+		$("#searchbox").toggle("slow");
+		$(".loginbox").hide("fast");
+	});
+				
+	$(".serbtn").on("click",function(){
+		$("#searchbox").hide("fast");
+	});
+		
+	$(".mypage").on("click",function(){
+		$(".loginbox").toggle("slow");
+		$("#searchbox").hide("fast");
+	});
+		});
+			
+	</script>			
+
+	
+	</head>
+
+ 
+	<body>
+	<div id="wrap">
+		<header>
+			<div id="top_container">
+				<div class="top_logo">
+					<h1>
+						<a href="index.html"><img src="img/logo.png"></a>
+					</h1>
+				</div>
+				
+			<nav class="right_util">	
+				<div id="notice5" class="news">
+					<div class="open-event fl">
+						<ul class="notice-list">
+							<li><a href="#">WELCOM TO THE DEL MONTE!!</a><span class="data">2020.05.26</span></li>
+							
+							<li><a href="#">델몬트 후레쉬 프로듀스 사이트 리뉴얼</a><span class="data">2020.05.26</span></li>
+							
+							<li><a href="#">델몬트와 함께하는 제로웨이스트 Go! Go!</a><span class="data">2020.05.26</span></li>
+							
+							<li class="hid"><a href="#">과일보감 1+1나눔으로 코로나19 함께 이겨내요</a><span class="data">2020.05.26</span></li>
+							
+							<li class="hid"><a href="#">델몬트 파인애플과 빙그레 우유의 환상적인 특급 콜라보레이션! </a><span class="data">2020.05.26</span></li>
+							
+							<li><a href="#">첫 가입 구매시 쿠폰증정 · 무료배송</a><span class="data">2020.05.26</span></li>
+							
+							<li><a href="#">이달의 새로운 레시피 업데이트</a><span class="data">2020.05.26</span></li>
+							
+							<li><a href="#">델몬트가 여러분을 응원합니다</a><span class="data">2020.05.26</span></li>
+						</ul>
+						</div>
+							
+						
+						<div class="control fl">
+							<a href="#" class="play" title="재생">▷</a>&nbsp;
+							<a href="#" class="stop" title="정지">▣</a>
+						</div>
+					
+				</div>
+			</nav>
+				
+					<script type="text/javascript">
+						fn_article3('notice5', 'bt5', true);
+					</script>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<nav class="left_util">
+					<ul>
+						<li><a href="#" class="searchii"><img src="img/search.png"></a></li>
+						<li><a href="#"><img src="img/cart.png"></a></li>
+						<li class="mypage"><img src="img/mypage.png"></li>
+						<li><a href="map.html"><img src="img/map.png"></a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<nav class="main_menu">
+					<ul class="main">
+						<li><a href="aboutus.html"><span class="mm">ABOUT US</span></a>
+							<ul class="subwrap">
+								<li>
+									<ul class="sub about">
+										<ul>
+											<li><a href="info.html">PROFILE</a></li>
+											<li><a href="aboutus.html">DEL MONTE</a></li>
+										</ul>
+										<ul>
+											<li class="aboutimag"><img src="img/aboutimg.png"></li>
+										</ul>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="product.html"><span class="mm">PRODUCT</span></a>
+							<ul class="subwrap">
+								<li>
+									<ul class="sub product">
+										<ul class="productsubsub">
+											<li><a href="product.html">신선과일·채소</a></li>
+											<li><a href="product_2.html">과일보감</a></li>
+											<li><a href="product_3.html">B2B제품</a></li>
+										</ul>
+										
+										<ul>
+											<li class="pbana"><img src="img/productimg.png">
+											</li>
+										</ul>
+									</ul>
+								</li>
+							</ul>
+						</li>
+									<li><a href="recipe.html"><span class="mm">RECIPE</span></a>
+										<ul class="subwrap">
+											<li>
+												<ul class="sub recipe">
+													<ul class="recipesubsub">
+														<li><a href="recipe.html">RECIPE</a></li>
+												</ul>
+												
+												<ul>
+														<li class="recimag"><img src="img/recipeimg.png">
+														</li>
+													</ul>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="event.html"><span class="mm">EVENT</span></a>
+										<ul class="subwrap">
+											<li>
+												<ul class="sub event">
+													<ul class="eventsubsub">
+														<li><a href="#">진행중인 이벤트</a></li>
+														<li><a href="#">종료된 이벤트</a></li>
+													</ul>
+														
+													<ul>
+														<li class="evenimag">
+														<img src="img/event1.jpg">
+														<img src="img/event2.jpg">
+														<img src="img/event3.jpg">
+														</li>
+													</ul>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="community.html"><span class="mm">COMMUNITY</span></a>
+									<ul class="subwrap">
+											<li>
+												<ul class="sub comu">
+													<ul class="comusubsub">
+														<li><a href="#" id="commu_tab_notice">NOTICE</a></li>
+														<li><a href="#" id="commu_tab_qa">Q & A</a></li>
+														<li><a href="#" id="commu_tab_cs">고객센터</a></li>
+													</ul>
+													
+													<ul>	
+														<li class="comuimag"><img src="img/comuimg.png"></li>
+													</ul>
+												</ul>
+											</li>
+										</ul>
+									</li>
+					</ul>
+			</nav>
+			
+			<div id="searchbox">
+						<ul class="searchwrap">
+							<ul>
+								<form>
+									<fieldset>
+											<legend class="skip">검색</legend>
+											<label class="searchla" for="ser">검색어입력</label>
+											<input type="search" id="ser" class="serbox" placeholder="검색어를 입력하세요">
+											<button type="image"  class="serbtn"></button>
+									</fieldset>		
+								</form>
+							</ul>
+						</ul>
+					</div>
+					
+			<div class="loginbox">
+				<div class="loginbwrap">
+					<ul>
+						<li><a href="#infopanel">LOGIN</a></li>
+						<li><a href="member_1.html">JOIN</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+
+
+
+
+
+
+		
+		<div id="joinarea">
+			<h1>JOIN</h1>
+			<div class="joinstep">
+				<ul>
+					 <li><img src="img/join1_1.png">
+					 <p><span>STEP.01</span><br>본인인증<p></li>
+					 
+					 <li>·········</li>
+					 
+					 <li><img src="img/join2_1.png">
+					 <p><span>STEP.02</span><br>약관동의<p></li>
+					
+					<li>·········</li>
+					 
+					 <li><img src="img/join3.png">
+					 <p><span>STEP.03</span><br>정보입력<p></li>
+					
+					<li>·········</li>
+					 
+					 <li><img src="img/join4_1.png">
+					 <p><span>STEP.04</span><br>가입완료<p></li>
+				 </ul>
+			</div>
+			<div class="joinment1">
+				
+				<div class="formwrap">
+				<h2>정보입력<span> *표시는 필수항목입니다.</span></h2>
+				<form>
+				<fieldset id="wrap">
+				<legend></legend>
+				<ul>
+					<li>
+						<label class="reg" for="userid">아이디<span>*</span></label>
+						<input type="text" id="userid" value= "">
+						<button type="submit" value="submit">
+						중복확인
+					</button>
+					</li>
+					
+					<li>
+						<label class="reg" for="userpw">비밀번호<span>*</span></label>
+						<input type="text" id="userpw" value= ""></span>
+					</li>
+					
+					<li>
+						<label class="reg" for="userpw">비밀번호확인<span>*</span></label>
+						<input type="text" id="userpw">
+					</li>
+					
+					<li>
+						<label class="reg" for="uname">이름<span>*</span></label>
+						<input type="text" id="uname">
+					</li>
+					
+					<li class="ad_list">
+						<label class="reg" for="uaddress">주소<span>*</span></label>
+						<input type="text" id="uaddress" size="6" maxlength="6">
+						<button type="submit" value="submit">
+						우편번호
+						</button>
+						<br>
+						<input type="text" id="uaddress">
+						<input type="text" id="uaddress">
+						
+					</li>
+					
+					<li>
+						<label class="reg" for="uphone">휴대폰<span>*</span></label>
+						<select>
+						<option>010</option>
+						<option>011</option>
+						<option>016</option>
+						<option>017</option>
+						<option>019</option>
+						</select>
+						<input type="text" id="uphone" size="4" maxlength="4">
+						<input type="text" id="uphone" size="4" maxlength="4">
+					</li>
+					
+					<li class="mail_list">
+						<label class="reg" for="umail">이메일<span>*</span></label>
+						<input type="text" id="umail" size="10" maxlength="10"> @
+						<select>
+						<option></option>
+						<option>hanmail.net</option>
+						<option>naver.com</option>
+						<option>dreawiz.com</option>
+						<option>hotmail.net</option>
+						<option>gmail.com</option>
+						</select>
+					</li>
+					<label class="mail_1"><input type="checkbox">쿠폰/혜택/이벤트 발생 시 이메일로 알림 받기(선택)</label>
+				
+					<li class="jbirth">
+						<label class="reg" for="ubirth">생년월일</label>
+						<select>
+						<option>년도 선택</option>
+						<option>1950</option>
+						<option>1960</option>
+						<option>1970</option>
+						<option>1980</option>
+						<option>1990</option>
+						<option>2000</option>
+						<option>2010</option>
+						<option>2020</option>
+						</select>
+						<select>
+						<option>월 선택</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						</select>
+						<select>
+						<option>일 선택</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+						<option>26</option>
+						<option>27</option>
+						<option>28</option>
+						<option>29</option>
+						<option>30</option>
+						<option>31</option>
+						</select>
+					</li>
+					<li class="wm">
+						<label class="reg" for="gender">성별</label>
+						<input type="radio" id="men" name="gender" checked />
+						<label for="men">남자</label>
+						<input type="radio" id="women" name="gender" />
+						<label for="women">여자</label>
+					</li>
+				
+					<li class="agree">
+					<input type="checkbox" id="uagree">이용약관 및 개인정보수집 및 이용, 쇼핑정보 수신(선택)에 모두 동의합니다.
+					</li>
+				
+					<li class="jbtn">
+						<button type="button" onclick = "location.href = 'member_4.html'">
+							신청하기
+						</button>
+						 <button type="reset" value="reset" onclick= "">
+							다시쓰기
+						</button>
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+	</div>
+	</div>
+	</div>
+			 
+			 <footer>
+			<div class="topbutton">
+			<a href="#"><img src="img/topb.png"></a></div>
+			<div>
+				<h3><img src="img/logo_f.png"> 한국델몬트후레쉬프로듀스㈜</h3>			
+				<div class="footer_1">
+					<p>한국델몬트후레쉬프로듀스㈜ 대표이사 강석호<br>
+					  06158 서울시 강남구 삼성로 511 골든타워 11층 | 사업자등록번호 120-81-94591
+					  <br>본 사이트에서 사용된 상표는미국과 국제법에 의해 보호받습니다.</p>
+					<div class="sns">
+					<a href="https://www.instagram.com/delmontekorea/?hl=ko"><img src="img/insta_i.png"></a>
+					<a href="https://www.facebook.com/freshdelmonte"><img src="img/facebook_i.png"></a>
+					<a href="https://blog.naver.com/bananadiet"><img src="img/blog_i.png"></a>
+					<a href="https://www.youtube.com/channel/UCzT9Un1f0sr_shPqTxUGYgQ"><img src="img/youtube_i.png"></a>
+					</div>
+					<div class="footer1_1">
+					  <p><a href="#">개인정보처리방침</a></P>
+					  <p><a href="#">이용약관</a></p></div>
+					<div class="footer1_2">
+					<p>COPYRIGHT © 1998 BY DEL MONTE FRESH PRODUCE(KOREA) LTD.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="loginwrap">
+			<div id="infopanel" class="modal">
+				<div class="con">
+					<h1><img src="img/logo.png"></h1>
+					<h2>로그인</h2>
+					<div>
+						<fieldset>
+							<ul>
+								<li>
+									<label for="uname" class="tit">ID</label>
+									<input type="text" id="uname" placeholder="ID" required>
+								</li>
+							
+								<li>
+									<label for="tel1" class="tit">PASSWORD</label>
+									<input type="password" id="tel1" placeholder="PASSWORD">
+								</li>
+							<li class="checkid">
+							<input type="checkbox" id="idcheck" value="">
+							<label for="idcheck" class="idc">아이디저장</label>
+							</ul><li>
+						</fieldset>
+					</div>
+					<div class="lobtn">
+						<button type="submit" value="submit" onclick="location.href='">LOGIN</button>
+					</div>
+					
+					<div class="snsicon">
+						<p class="snstit">SNS계정 로그인</p>
+						<div class="snsbb">
+							<img src="img/nav1.png">
+							<img src="img/goo1.png">
+							<img src="img/kaka1.png">
+							<img src="img/face1.png">
+						</div>
+					</div>
+					
+					
+					<div class="lobtn_1">
+						<p>델몬트 후레쉬 프로듀스 회원이 아니신가요?<p>
+						<button type="submit" value="submit" onclick="location.href='member_1.html">JOIN</button>
+					</div>
+					
+					
+					<div class="close"><a href="#">Close</a></div>
+					
+				</div>	
+			</div>	
+		</div>
+
+			
+			
+		
+			
+				
+		
+	
+</div>
+</body>
+			 
+			 
+		
+		
+		
+
+</html>

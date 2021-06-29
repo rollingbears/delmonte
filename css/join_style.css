@@ -1,0 +1,168 @@
+*{
+				margin:0; 
+				padding:0; 
+				box-sizing:border-box;
+			}
+			
+			a{
+				text-decoration:none;
+			}
+			
+			address{
+				text-style:normal;
+			}
+			
+			img{
+				border:none;
+			}
+			
+			ul{
+				list-style: none;
+			}
+			
+			body{
+				font-family: Noto Sans KR, sans-serif;
+				font-size: 0.75em;
+			}
+			
+			h1{
+				text-align: center;
+				margin: 2% 1%;
+				letter-spacing: 2px;
+				font-size: 2.5em;
+				color: #5e7f43;
+			}
+			form{
+				width: 30%;
+				margin: 0 auto;
+			}
+			
+			fieldset{
+				width: 100%;
+				border-radius: 3px;
+				margin: 10px 0;
+				border: none;
+			}
+			
+			form legend{
+				font: bold 1.2em Noto Sans KR, sans-serif;
+				color: #5e7f43;
+				
+			}
+			
+			form ul li{
+				line-height: 20px;
+				margin: 10px 0;
+			}
+			
+			form ul li span{
+				color: gray;
+				font-size: .9em;
+			}
+			
+			
+			form label.reg{
+				 width: 130px;
+				 line-height: 18px;
+				 /*border: 1px solid orange;*/
+				 text-align: left;
+				 float: left;
+				 padding: 0 20px;
+				 vertical-align: bottom;
+			}  
+			
+			form input{
+				 width: 150px;
+				 line-height: 16px;
+				 margin-left: 5px;
+				 vertical-align: top;
+				 color: silver;
+			}
+			
+			form button{
+				 width: 80px;
+				 font-size: .8em;
+				 cursor: pointer;
+				 border: none;
+				 background: #5e7f43;
+				 line-height: 20px;
+				 border-radius: 3px;
+				 color: #fff;
+				 vertical-align: top;
+			}
+			
+			form select{
+				height: 20px;
+				margin-left: 5px;
+				vertical-align: top;
+			}
+			
+			label.mail_1 input{
+				width: 20px;
+				vertical-align: middle;
+			}
+			
+			label.mail_1 button{
+				vertical-align:
+			}
+			
+			li.ad_list input#uaddress:nth-child(2){
+				margin-bottom: 5px;
+				width: 65px;
+			}
+			
+			li.ad_list input#uaddress:nth-child(5){
+				margin-left: 135px;
+			}
+			
+			input#uphone{
+				width: 50px;
+			}
+			
+			li.wm input#men, input#women{
+				width: 20px;
+				position: relative;
+				top: 4px;
+			}
+			
+			#wrap3 input#uagree{
+				width: 20px;
+				position: relative;
+				top: 4px;
+			}
+			
+			#wrap4 input#uagree{
+				width: 20px;
+				position: relative;
+				top: 4px;
+			}
+			
+			#wrap4 h3{
+				margin: 15px 0 5px 0;
+			}
+			
+			#wrap4 h3:first-child{
+				margin-top: 0;
+			}
+			
+			
+		
+		
+			
+		
+			
+			
+				
+			
+				
+				
+				
+				
+				
+				
+			
+			
+			
+				
+			
+			
