@@ -657,6 +657,8 @@
 				opacity: .5;
 			}
 
+			
+			
 			a.dd {
 				width: 100px;
 				height: 50px;
@@ -742,117 +744,372 @@
 
 
 			#section1, #section2, #section3,#section4, #section5 img{
-				background-size:cover;
-				text-align:center;
+				background-size: cover;
+				text-align: center;
 			}
 
 			#section2{
-				color:#fff;
-				width:100%;
-				height:1080px;
-				background:url(../img/about_back2.jpg) no-repeat;
+				color: #fff;
+				width: 100%;
+				height: 1080px;
+				background: url(../img/about_back2.jpg) no-repeat;
 			}
 
 			#section2 h1{
-				position:absolute;
-				left:-200px; top:0%;
-				font-size:41px;
-				transition:all 2s ease;
-				opacity:0;
+				position: absolute;
+				left: -200px;
+				top: 33%;
+				font-size: 41px;
+				transition: all 2s ease;
+				opacity: 0;
 			}
 
 			#section2 h1.on{
-				position:absolute;
-				left:30%; top:30%;
-				transform:rotate(360deg);
+				position: absolute;
+				left: 33%; 
+				top: 33%;
 				transition:all 2s ease;
 				opacity:1;
 			}
 
+			#section2 h2{
+				position: absolute;
+				left: -200px;
+				top: 43%;
+				transition: all 2s ease;
+				transition-delay: .5s;
+				opacity: 0;
+			}
+
+ 
+			#section2 h2 img{
+				width: 65%;
+				vertical-align:bottom;
+			}
+
+			#section2 h2.on{
+				position: absolute;
+				left: 30%; 
+				top: 43%;
+				transition:all 2s ease;
+				transition-delay: .5s;
+				opacity:1;
+			}
+
+			#section2 h3{
+				position: absolute;
+				right: -200px;
+				top: 56%;
+				font-size: 15px;
+				transition: all 2s ease;
+				transition-delay: .8s;
+				opacity: 0;
+			}
+
+			#section2 h3.on{
+				position: absolute;
+				right: 35%;
+				top: 56%;
+				font-size: 15px;
+				transition:all 2s ease;
+				transition-delay: .8s;
+				opacity:1;
+			}
+
+			
+			
 			#section3{
 				width:100%;
 				height:1080px;
-				background:url(../img/about_back3.jpg) no-repeat;
+				background:url(../img/about_back3.jpg) no-repeat;	
 			}
 
-			#section3>div{
-				width:300px;
-				height:300px;
-				position:absolute;
-				left:50%; top:50%;
-				margin-left:-150px;
-				margin-top:-150px;
+			
 
-				background:rgba(0,0,0,0.5);
-			}
+			
 
-			#section3>p{
-				width:100px;
-				height:50px;
 
-				font-size:38px;
+			#section3 p.num1{
+				position: absolute;
+				left: 23%;
+				top: -30%;
+				font-size: 15px;
 				color:#fff;
-				position:absolute;
-				left:50%; top:50%;
-				margin-left:-50px;
-				margin-top:-25px;
-
+				font-weight:600;
+				text-align: left;
 			}
 
-			#section3 div.on{
-				position:absolute;
-				left:50%; top:50%;
-				margin-left:-150px;
-				margin-top:-150px;
-				
-				transform:rotate(180deg);
-				transition:transform 1s ease;		
+
+			#section3 p img{
+				width: 70%;
+				vertical-align: bottom;
+			}	
+
+
+			#section3 p.num1.on{
+				position: absolute;
+				left: 23%;
+				top: 23%;
+				transition: all 2s ease;	
 			}
 
+
+			#section3 p.num2{
+				position: absolute;
+				left: 45%;
+				top: -30%;
+				font-size: 15px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
+			}
+
+			#section3 p.num2.on{
+				position: absolute;
+				left: 45%;
+				top: 23%;
+				transition: all 2s ease;
+				transition-delay: .3s;	
+			}
+
+
+			#section3 p.num3{
+				position: absolute;
+				right: 20%;
+				top: -30%;
+				font-size: 15px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
+			}
+
+			#section3 p.num3.on{
+				position: absolute;
+				right: 20%;
+				top: 23%;
+				transition: all 2s ease;
+				transition-delay: .6s;	
+			}
+
+
+			#section3 p.num4{
+				position: absolute;
+				left: 23%;
+				bottom: -30%;
+				font-size: 15px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
+			}
+
+			#section3 p.num4.on{
+				position: absolute;
+				left: 23%;
+				bottom: 23%;
+				transition: all 2s ease;
+				transition-delay: 1.2s;	
+			}
+
+
+			#section3 p.num5{
+				position: absolute;
+				left: 45%;
+				bottom: -30%;
+				font-size: 15px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
+			}
+
+			#section3 p.num5.on{
+				position: absolute;
+				left: 45%;
+				bottom: 23%;
+				transition: all 2s ease;
+				transition-delay: 1.5s;	
+			}
+
+
+			#section3 p.num6{
+				position: absolute;
+				right: 20%;
+				bottom: -30%;
+				font-size: 15px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
+			}
+
+			#section3 p.num6.on{
+				position: absolute;
+				right: 20%;
+				bottom: 23%;
+				transition: all 2s ease;
+				transition-delay: 1.8s;	
+			}
+
+			
+			
+			
+			
+			
+			
 			#section4{
 				width:100%;
 				height:1080px;
 				background:url(../img/about_back111.jpg) no-repeat;	
 			}
 
-			#section4 div{
-				width:300px;
-				height:300px;
-				position:absolute;
-				left:50%; top:50%;
-				margin-left:-150px;
-				margin-top:-150px;
-				background:rgba(0,0,0,0.5);
+			
 
-			}
-
-			#section4 div p{
-				font-size:38px;
+			#section4 h1{
+				position: absolute;
+				right: 25%;
+				bottom: -45%;
+				font-size: 15px;
 				color:#fff;
 				font-weight:600;
-				line-height:300px;
+				text-align: left;
+			}
+
+			#section4 h1>span{
+				font-size: 28px;
+			}
+
+			
+			#section4 h1.on{
+				position: absolute;
+				right: 25%;
+				bottom: 48%;
+				transition: all 2s ease;
+				/*transition-delay: .8s;*/		
 			}
 
 
-			#section4 div.on{
-				transform:rotateX(360deg);
-				transition:transform 2s ease;	
+			#section4 p.llogo{
+				position: absolute;
+				left: 27%;
+				top: -35%;
+				font-size: 15px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
 			}
+
+
+			#section4 p.llogo img{
+				width: 55%;
+				vertical-align: bottom;
+				opacity: .7;
+			}	
+
+
+			#section4 p.llogo.on{
+				position: absolute;
+				left: 27%;
+				top: 30%;
+				transition: all 2s ease;	
+			}
+
+
 
 
 
 			#section5{
-			background:url(../img/about_back1.jpg) no-repeat;
-			text-align:center;
-			font-size:100px;
+				background:url(../img/about_back1.jpg) no-repeat center center;
+			}
+
+			#section5 h1{
+				position: absolute;
+				left: 22%;
+		 		top: -20%;
+				font-size: 25px;
+				color:#fff;
+				font-weight:600;
+				text-align: left;
+			}
+
+			#section5 h1.on{
+				position: absolute;
+				left: 22%;
+				top: 20%;
+				transition: all 2s ease;
+				/*transition-delay: .8s;*/		
+			}
+
+			
+			#section5 h2{
+				position: absolute;
+				left: 32%;
+				top: 25%;
+				font-size: 40px;
+				letter-spacing: 100px;
+				color:#fff;
+				font-weight:600;
+				opacity: 0;
+				text-align: center;
+			}
+
+			#section5 h2.on{
+				position: absolute;
+				left: 32%;
+				top: 25%;
+				font-size: 150px;
+				letter-spacing: 30px;
+				opacity: 1;
+				transition: all 3s ease;
+				transition-delay: .8s;		
+			}
+
+			#section5 h3{
+				position: absolute;
+				left: 29%;
+				bottom: 25%;
+				font-size: 18px;
+				color:#fff;
+				opacity: 0;
+				text-align: left;
+			}
+
+			#section5 h3.on{
+				position: absolute;
+				left: 29%;
+				bottom: 25%;
+				opacity: 1;
+				transition: all 2s ease;
+				transition-delay: 2.5s;
+				text-align: left;		
 			}
 
 			#section5 div{
-				position: relative;
-				width: 900px;
-				height: 600px;
-				margin: 20px auto;
+				width: 60%;
+				position: absolute;
+				left: 30%;
+				bottom: 35%;
+				font-size: 18px;
+				color:#fff;
+				opacity: 0;
+				text-align: center;
 			}
+
+
+			#section5 div p{
+				width: 15%;
+				float: left;
+				margin-right: 2%;
+				padding: 2% 0;
+				border: 1px solid #fff;
+			}
+			
+			#section5 div.on{
+				position: absolute;
+				left: 30%;
+				bottom: 35%;
+				opacity: 1;
+				transition: all 2s ease;
+				transition-delay: 2.5s;
+			}
+
 
 			
 

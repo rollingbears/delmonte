@@ -1231,6 +1231,8 @@
 				transition: all .2s linear;
 				background: rgba(255, 255, 255, .5);
 			}
+
+
 			div.bgdel_1:hover div.boxline::before, div.bgdel_1:hover div.boxline::after{
 				width: 100%;
 			}
